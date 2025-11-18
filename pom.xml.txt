@@ -5,10 +5,7 @@
  
 
     <groupId>com.example</groupId>
-    <artifactId>myapp</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <build>
+    <artifactId>myapp</artifactId>    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
