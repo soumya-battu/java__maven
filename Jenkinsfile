@@ -1,10 +1,5 @@
 
-    tools {\    }
-
-    stages {
-
-        stage('Checkout') {
-            steps {
+    tools {            steps {
                 git branch: 'main', url: 'https://github.com/soumya-battu/java__maven.git'
             }
         }
