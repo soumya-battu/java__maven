@@ -6,8 +6,7 @@
 
         stage('Build with Maven') {
             steps {
-                bat "mvn clean install"
-            }
+          
         }
 
         stage('Archive WAR') {
